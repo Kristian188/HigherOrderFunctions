@@ -23,7 +23,7 @@ let classroom = {
     [student3.name]: student3
 };
 
-const classAverage = classroom => {
+const classAverage = () => {
     let students = Object.values(classroom)
 
 
